@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+  <title>Dashboard</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../css/style.css" rel="stylesheet">
+  <!-- You can change the theme colors from here -->
+  <link href="../css/colors/blue.css" id="theme" rel="stylesheet">
+  <!--This page css - Morris CSS -->
+  <link href="../assets/plugins/morrisjs/morris.css" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header card-no-border">
+  <!-- ============================================================== -->
+  <!-- Preloader - style you can find in spinners.css -->
+  <!-- ============================================================== -->
+  <!-- <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div> -->
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <header class="topbar">
+      <nav class="navbar top-navbar navbar-expand-md navbar-light">
+        <!-- ============================================================== -->
+        <!-- Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="menu.html">
+            <!-- Logo icon -->
+            <b>
+              <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+
+              <!-- Light Logo icon -->
+              <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" height="60px" width="60px"/>
+            </b>
+            <!--End Logo icon -->
+            <!-- Logo text -->
+            <span>
+
+              <!-- Light Logo text -->
+              <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" height="40px" width="190px"/></span> </a>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Logo -->
+        <!-- ============================================================== -->
+        <div class="navbar-collapse">
+          <!-- ============================================================== -->
+          <!-- toggle and nav items -->
+          <!-- ============================================================== -->
+          <ul class="navbar-nav mr-auto mt-md-0">
+
+
+
+          </ul>
+          <!-- ============================================================== -->
+          <!-- User profile and search -->
+          <!-- ============================================================== -->
+          <ul class="navbar-nav my-lg-0">
+
+            <!-- ============================================================== -->
+            <!-- Profile -->
+            <!-- ============================================================== -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+              <div class="dropdown-menu dropdown-menu-right scale-up">
+                <ul class="dropdown-user">
+                  <li>
+                    <div class="dw-user-box">
+                      <div class="u-img"><img src="../assets/images/users/1.jpg" alt="user"></div>
+                      <div class="u-text">
+                        <h4>Steave Jobs</h4>
+                        <p class="text-muted">varun@gmail.com</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><i class="ti-user"></i> Mi Perfil</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><i class="ti-settings"></i> Configuraci&oacute;n de la Cuenta</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#"><i class="fa fa-power-off"></i> Cerrar Sesi&oacute;n</a></li>
+                </ul>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <aside class="left-sidebar">
+      <!-- Sidebar scroll-->
+      <div class="scroll-sidebar">
+        <nav class="sidebar-nav">
+          <ul id="sidebarnav">
+            <li>
+              <h6 class="text-themecolor m-b-0 m-t-0">Productos</h6>
+              <ul>
+                <li><a href="agregarProducto.html">Agregar Productos</a></li>
+                <li><a href="editarProducto.html">Editar Productos</a></li>
+                <li><a href="inventario.html">Revisar Inventario</a></li>
+              </ul>
+            </li>
+            <li>
+              <h6 class="text-themecolor m-b-0 m-t-0">Estadisticas</h6>
+              <ul>
+                <li><a href="generarEstadisticas.html">Generar Estadisticas</a></li>
+                <li><a href="generarReportes.html">Generar Reportes</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Sidebar navigation -->
+      </div>
+      <!-- End Sidebar scroll-->
+
+    </aside>
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Page wrapper  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <!-- ============================================================== -->
+      <!-- Container fluid  -->
+      <!-- ============================================================== -->
+      <div class="container-fluid">
+        <!-- ============================================================== -->
+        <!-- Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <div class="row page-titles">
+          <div class="col-md-5 col-8 align-self-center">
+            <h3 class="text-themecolor m-b-0 m-t-0">Agregar Producto</h3>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="menu.html">Home</a></li>
+              <li class="breadcrumb-item active">Agregar Producto</li>
+            </ol>
+          </div>
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Bread crumb and right sidebar toggle -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Start Page Content -->
+        <!-- ============================================================== -->
+        <!-- Row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Generar Estadisticas</h4>
+                        <h6 class="card-subtitle">Seleccione el producto y el periodo del que desea generar las estadisticas</h6>
+                        <form class="floating-labels m-t-40">
+                            <div class="form-group m-b-40">
+                                <input type="text" class="form-control" id="nombre" value="Producto A">
+                                <span class="bar"></span>
+                                <label for="nombre">Nombre del Producto</label>
+                            </div>
+                            <div class="form-group m-b-40">
+                              <input type="text" class="form-control" id="periodo" value="2018-2019">
+                              <span class="bar"></span>
+                              <label for="periodo">Periodo</label>
+                            </div>
+                              <!-- Modificar echarts-init-js para valores -->
+                            <div class="row">
+                                    <div class="col-lg-4 col-sm-12 col-md-4">
+                                        <button type="sumbit" class="btn btn-rounded waves-effect waves-light btn-block btn-success" id="sa-success">Finalizar</button>
+                                    </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Reporte Mensual</h4>
+                            <div id="bar-chart" style="width:100%; height:400px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                  <!-- column -->
+                  <div class="col-lg-6">
+                      <div class="card">
+                          <div class="card-body">
+                              <h4 class="card-title">Ventas en Tiempo Real</h4>
+                              <div class="demo-container" style="height:400px;">
+                                  <div id="placeholder" class="flot-chart-content"></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                      <div class="card">
+                          <div class="card-body">
+                              <h4 class="card-title">Comparativa Productos</h4>
+                              <ul class="list-inline text-right">
+                                  <li>
+                                      <h5><i class="fa fa-circle m-r-5 text-inverse"></i>Producto A</h5>
+                                  </li>
+                                  <li>
+                                      <h5><i class="fa fa-circle m-r-5 text-info"></i>iPad (Referencia)</h5>
+                                  </li>
+                                  <li>
+                                      <h5><i class="fa fa-circle m-r-5 text-success"></i>iPod (Referencia)</h5>
+                                  </li>
+                              </ul>
+                              <div id="morris-area-chart"></div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+        </div>
+        <!-- ============================================================== -->
+        <!-- End PAge Content -->
+        <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Container fluid  -->
+      <!-- ============================================================== -->
+      <!-- ============================================================== -->
+      <!-- footer -->
+      <!-- ============================================================== -->
+      <footer class="footer"> © Proyecto ADOO 2019 Rodrigo Vera, Arturo Morgado, Alberto Garcia </footer>
+      <!-- ============================================================== -->
+      <!-- End footer -->
+      <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Page wrapper  -->
+    <!-- ============================================================== -->
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap tether Core JavaScript -->
+  <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+  <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <!-- slimscrollbar scrollbar JavaScript -->
+  <script src="../js/jquery.slimscroll.js"></script>
+  <!--Wave Effects -->
+  <script src="../js/waves.js"></script>
+  <!--Menu sidebar -->
+  <script src="../js/sidebarmenu.js"></script>
+  <!--stickey kit -->
+  <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+  <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+  <!--Custom JavaScript -->
+  <script src="../js/custom.min.js"></script>
+  <script src="../js/jasny-bootstrap.js"></script>
+
+  <!-- Chart JS -->
+  <script src="../assets/plugins/echarts/echarts-all.js"></script>
+  <script src="../assets/plugins/echarts/echarts-init.js"></script>
+  <!-- Flot Charts JavaScript -->
+  <script src="../assets/plugins/flot/excanvas.js"></script>
+  <script src="../assets/plugins/flot/jquery.flot.js"></script>
+  <script src="../assets/plugins/flot/jquery.flot.pie.js"></script>
+  <script src="../assets/plugins/flot/jquery.flot.time.js"></script>
+  <script src="../assets/plugins/flot/jquery.flot.stack.js"></script>
+  <script src="../assets/plugins/flot/jquery.flot.crosshair.js"></script>
+  <script src="../assets/plugins/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
+  <script src="../js/flot-data.js"></script>
+  <!--Morris JavaScript -->
+  <script src="../assets/plugins/raphael/raphael-min.js"></script>
+  <script src="../assets/plugins/morrisjs/morris.js"></script>
+  <script src="../js/morris-data.js"></script>
+  <!-- ============================================================== -->
+  <!-- Style switcher -->
+  <!-- ============================================================== -->
+  <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>
