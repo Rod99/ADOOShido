@@ -1,0 +1,18 @@
+version: '3' # specify docker-compose version
+# Define the services/containers to be run
+services:
+
+    server: #name of the second service
+        build: backend # specify the directory of the Dockerfile
+        ports:
+          - "3000:3000" #specify ports forewarding
+        links:
+          - database # link this service to the database service
+        volumes:
+            - ./uploads:/usr/src/app/uploads
+            - ./backend:/usr/src/app
+            - /usr/src/app/node_modules #Se habilita la carpeta de las dependencias
+    database: # name of the third service
+        image: mongo # specify image to build container from
+        ports:
+            - "27017:27017" # specify port forewarding
