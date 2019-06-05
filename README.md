@@ -5,12 +5,10 @@ facilitando la toma de decisiones de marketing y mostrando estad&iacute;sticas c
 
 <h2>Funcionamiento</h2>
 
-<p>Smart Choice es un sistema enfocado al funcionamiento multiplataforma, por lo que hace uso de tecnologías web vigentes,
- tales como NodeJS, MongoDB, Docker, además de multiples recursos gráficos para que la experiencia del usuario sea la más
- placentera.</p>
+<p>Smart Choice es un sistema enfocado al funcionamiento multiplataforma, por lo que hace uso de tecnologías vigentes,tales como NodeJS, MongoDB (Bases de datos no relacionales) y Docker (contenedores), además de multiples recursos gráficos para que la experiencia del usuario sea la más cómoda.</p>
  
  <p>El diseño y planeación del sistema se ha realizado con el objetivo de presentar un producto que resuelva adecuadamente
- una problematica. Mas detalles de dicho diseño se pueden encontrar en el archivo <i><b>documentacion.pdf</b></i></p>
+ una problematica. Mas detalles de dicho diseño se pueden encontrar en el archivo <i><b><a href="documentacion.pdf">documentacion.pdf</a></b></i></p>
   
 <h2>Front-End</h2>
 
