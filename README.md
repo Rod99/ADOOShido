@@ -28,3 +28,7 @@ Mediante NodeJS y mongoose se desarrollo una api REST. Esto nos permite tener un
 </p>
  
  <p><b>Tecnologías Utilizadas:</b> NodeJS y MongoDB</p>
+ 
+ <h2>Indicaciones de Ejecución</h2>
+ 
+ <p>Para poder acceder a las funcionalidades del sistema es necesario contar con Docker, estar en la raíz del proyecto e ingresar el comando "docker-compose up", la ejecución de basa en el archivo "docker-compose.yml"</p>
