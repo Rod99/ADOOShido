@@ -32,3 +32,8 @@ Mediante NodeJS y mongoose se desarrollo una api REST. Esto nos permite tener un
  <h2>Indicaciones de Ejecución</h2>
  
  <p>Para poder acceder a las funcionalidades del sistema es necesario contar con Docker, estar en la raíz del proyecto e ingresar el comando "docker-compose up", la ejecución de basa en el archivo "docker-compose.yml"</p>
+ 
+ 
+ <h2>Conclusi&oacute;n</h2>
+ 
+ <p>La presente propuesta es sin duda interesante, el trabajo de planeación y diseño es bastante claro, completo y permite reconocer el alcance e impacto social de dicha aplicación. Desafortunadamente, la conclusión de un prototipo completamente funcional ha sido una meta que no se ha podido alcanzar como podría desearse, sin embargo, es palpable el uso de tecnologías, métodos de análisis y diseño en dicha maquetación, lo que puede considerarse como un buen resultado y un aprendizaje integral.</p>
